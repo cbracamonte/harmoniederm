@@ -54,12 +54,12 @@ export function Header() {
           <Image
             src="/icons/logo.svg"
             alt="HarmonieDerm"
-            width={36}
-            height={36}
-            className="h-7 w-7 sm:h-8 sm:w-8"
+            width={52}
+            height={52}
+            className="h-8 w-8 sm:h-11 sm:w-11 lg:h-12 lg:w-12"
             priority
           />
-          <span className="font-heading text-lg font-semibold tracking-wide text-foreground">
+          <span className="font-heading text-lg font-semibold tracking-wide text-primary sm:text-xl lg:text-2xl">
             HarmonieDerm
           </span>
         </Link>
@@ -104,10 +104,11 @@ export function Header() {
                 <Image
                   src="/icons/logo.svg"
                   alt="HarmonieDerm"
-                  width={32}
-                  height={32}
+                  width={44}
+                  height={44}
+                  className="h-11 w-11"
                 />
-                <span className="font-heading text-lg font-semibold">
+                <span className="font-heading text-xl font-semibold text-primary">
                   HarmonieDerm
                 </span>
               </SheetTitle>
