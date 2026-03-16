@@ -1,0 +1,50 @@
+/* ── Layout Design System ──
+ *
+ * Mobile-first responsive strategy:
+ *   - Mobile:  < 640px  (default — no prefix)
+ *   - Tablet:  ≥ 640px  (sm:)
+ *   - Desktop: ≥ 1024px (lg:)
+ *
+ * Container & spacing tokens scale with breakpoints.
+ * All components should follow this convention.
+ */
+
+:root {
+  /* ── Container ── */
+  --container-padding: 1rem;       /* 16px — mobile  */
+  --container-max: 100%;
+
+  /* ── Section spacing ── */
+  --section-py: 3rem;              /* 48px — mobile  */
+  --section-gap: 2rem;             /* 32px — mobile  */
+
+  /* ── Header ── */
+  --header-height: 3.5rem;         /* 56px — mobile  */
+  --header-px: 1rem;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --container-padding: 1.5rem;   /* 24px — tablet  */
+    --container-max: 640px;
+
+    --section-py: 4rem;            /* 64px — tablet  */
+    --section-gap: 2.5rem;         /* 40px — tablet  */
+
+    --header-height: 4rem;         /* 64px — tablet  */
+    --header-px: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: 2rem;     /* 32px — desktop */
+    --container-max: 1280px;
+
+    --section-py: 5rem;            /* 80px — desktop */
+    --section-gap: 3rem;           /* 48px — desktop */
+
+    --header-height: 4.5rem;       /* 72px — desktop */
+    --header-px: 2rem;
+  }
+}

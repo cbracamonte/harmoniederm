@@ -1,0 +1,44 @@
+:root {
+  /* ── Brand palette ── */
+  --brand-primary: #C47A8C;
+  --brand-secondary: #6F7A6E;
+  --brand-accent: #F6C6CF;
+  --brand-text: #4E3A3F;
+  --brand-text-muted: #7A6B6E;
+
+  /* ── Semantic tokens (shadcn) ── */
+  --background: #FFFFFF;
+  --foreground: #4E3A3F;
+  --card: #FFFFFF;
+  --card-foreground: #4E3A3F;
+  --popover: #FFFFFF;
+  --popover-foreground: #4E3A3F;
+  --primary: #C47A8C;
+  --primary-foreground: #FFFFFF;
+  --secondary: #6F7A6E;
+  --secondary-foreground: #FFFFFF;
+  --muted: #FAFAFA;
+  --muted-foreground: #7A6B6E;
+  --accent: #F6C6CF;
+  --accent-foreground: #4E3A3F;
+  --destructive: #DC3545;
+  --border: #F0E0E4;
+  --input: #E8D5DA;
+  --ring: #C47A8C;
+  --chart-1: #C47A8C;
+  --chart-2: #6F7A6E;
+  --chart-3: #F6C6CF;
+  --chart-4: #4E3A3F;
+  --chart-5: #7A6B6E;
+  --radius: 0.625rem;
+
+  /* ── Sidebar ── */
+  --sidebar: #FAFAFA;
+  --sidebar-foreground: #4E3A3F;
+  --sidebar-primary: #C47A8C;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F6C6CF;
+  --sidebar-accent-foreground: #4E3A3F;
+  --sidebar-border: #F0E0E4;
+  --sidebar-ring: #C47A8C;
+}
